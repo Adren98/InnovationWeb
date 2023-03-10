@@ -635,6 +635,30 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Instagram
+--------------------------------------------------------------*/
+.insta {
+  padding-top: 20px;
+}
+
+.insta .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.insta .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.insta .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff3e3e;
+}
+
+/*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 .features {

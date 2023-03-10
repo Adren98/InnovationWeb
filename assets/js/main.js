@@ -40,6 +40,7 @@
     el.addEventListener('scroll', listener)
   }
 
+
   /**
    * Navbar links active state on scroll
    */
@@ -196,6 +197,38 @@
       992: {
         slidesPerView: 6,
         spaceBetween: 120
+      }
+    }
+  });
+
+    /**
+   * Instagram Slider
+   */
+  new Swiper('.insta-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 40
       }
     }
   });
