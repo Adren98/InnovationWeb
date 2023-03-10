@@ -218,17 +218,17 @@
       clickable: true
     },
     breakpoints: {
-      320: {
+      500: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      800: {
         slidesPerView: 2,
         spaceBetween: 20
       },
-      480: {
+      1200: {
         slidesPerView: 3,
-        spaceBetween: 30
-      },
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 40
+        spaceBetween: 20
       }
     }
   });
